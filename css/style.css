@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-box {
+  position: relative;
+  display: flex;
+  max-width: 300px;
+  max-height: 50px;
+  background-color: rgba(148, 9, 234, 0.537254902);
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  border-radius: 25px;
+}
+.input-box .pass-input {
+  position: relative;
+  width: 400px;
+  height: 50px;
+  padding-left: 10px;
+  background-color: rgba(148, 9, 234, 0);
+  outline: none;
+  border: none;
+  color: #fff;
+}
+.input-box i {
+  display: block;
+  margin-right: 10px;
+}
+.input-box .hide {
+  display: none;
+}
+
+::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.768627451);
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.768627451);
+}/*# sourceMappingURL=style.css.map */
